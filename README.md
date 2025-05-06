@@ -30,4 +30,4 @@ All prices are handled using whole numbers (`int`), and the estimate is displaye
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/HiToMyCleaningEstimator.git
+   git clone https://github.com/Mostafa-SAID7/MyCleaningService.git
