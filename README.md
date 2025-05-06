@@ -1,6 +1,6 @@
 # MyCleaningService
 C# console app for estimating carpet cleaning costs based on room sizes and quantities.
-
+# My pdf URL for Searching about Standard numeric format: https://drive.google.com/file/d/1dXIgIOKCuQJCsSAK7KnqrXTyrbhkn0J2/view?usp=sharing
 ## 🧹 Some hints
 
 This program simulates an estimate generator for a cleaning service. It prompts the user to enter:
