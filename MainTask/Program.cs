@@ -36,9 +36,6 @@ namespace MainTask
             double totalCost = cost + tax;
 
             //display the result
-            //Console.WriteLine("Number of small carpets: "+smallRooms);
-            //Console.WriteLine("Number of large carpets: "+largeRooms);
-           
             Console.WriteLine("Price per small room: " + priceSmallRoom+"$");
             Console.WriteLine("Price per large room: " + priceLargeRoom+"$");
             Console.WriteLine("Cost : " + cost+"$");
