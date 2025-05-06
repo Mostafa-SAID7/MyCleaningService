@@ -1,0 +1,32 @@
+using Xunit;
+using MainTask;
+
+namespace MainTask.Tests
+{
+    public class CarpetCleaningCalculatorTests
+    {
+        [Fact]
+        public void CalculateCost_ShouldReturnCorrectAmount()
+        {
+            var calculator = new CarpetCleaningCalculator();
+            double cost = calculator.CalculateCost(2, 3);
+            Assert.Equal(2 * 25 + 3 * 35, cost);
+        }
+
+        [Fact]
+        public void CalculateTax_ShouldReturnCorrectTax()
+        {
+            var calculator = new CarpetCleaningCalculator();
+            double tax = calculator.CalculateTax(100);
+            Assert.Equal(6.0, tax); // 6% of 100
+        }
+
+        [Fact]
+        public void CalculateTotal_ShouldReturnCostPlusTax()
+        {
+            var calculator = new CarpetCleaningCalculator();
+            double total = calculator.CalculateTotal(200, 12);
+            Assert.Equal(212, total);
+        }
+    }
+}
